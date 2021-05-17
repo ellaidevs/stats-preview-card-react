@@ -1,4 +1,16 @@
-body{
+body {
   background-color: hsl(233, 47%, 7%);
+}
+
+.card-container {
+  background-color: hsl(244, 38%, 16%);
+  margin: 0;
+  height: 600px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
