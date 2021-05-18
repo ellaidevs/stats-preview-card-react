@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-color: hsl(233, 47%, 7%);
   font-size: 15px;
 }
@@ -24,7 +25,7 @@ body {
     //margin: 40p x;
 
     .main-heading { //todo: mobile text align center
-      font-family: 'Lexend Deca', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 700;
       color: hsl(0, 0%, 100%);
 
@@ -41,16 +42,17 @@ body {
     }
 
     .stat {
-      text-align: center;
+      display: flex;
+      justify-content: space-around;
     }
   }
 
-  .img-card{
+  .img-card {
     background-color: hsl(277, 64%, 61%);
     border-radius: 0px 8px 8px 0px;
   }
 
-  .img{
+  .img {
     border-radius: 0px 8px 8px 0px;
     background-size: cover;
     opacity: 50%;
@@ -62,19 +64,20 @@ body {
 //Stat component
 .stat-container {
   display: inline-grid;
-  //margin: 10% 30px;
 
   .stat-header {
+    margin-bottom: 5px;
     font-family: 'Lexend Deca', sans-serif;
-    //margin: 0;
+    font-weight: 400;
     color: hsl(0, 0%, 100%);
   }
 
-  .stat-desc {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
+  .stat-desc { //todo: mobile text align center //  margin: 10px 25%; mobile
     margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
     color: hsla(0, 0%, 100%, 0.6);
   }
 }
+
 //todo: 645 X 889px mobile
