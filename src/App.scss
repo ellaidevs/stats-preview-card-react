@@ -16,6 +16,7 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 8px;
 
+  //left container
   .card-desc-container {
     margin: 40px;
 
@@ -36,9 +37,14 @@ body {
       color: hsla(0, 0%, 100%, 0.75);
     }
 
-    .stat{
+    .stat {
       text-align: center;
     }
+  }
+
+
+  //right conteiner
+  .image-container {
   }
 }
 

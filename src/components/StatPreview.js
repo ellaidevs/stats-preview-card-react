@@ -1,5 +1,7 @@
 import React from 'react';
-import Stat from "./Stat";
+import Stat from './Stat';
+import imageHeaderDesktop from '../images/image-header-desktop.jpg';
+import imageHeaderMobile from '../images/image-header-mobile.jpg';
 
 const StatPreview = () => {
     return (
@@ -18,6 +20,9 @@ const StatPreview = () => {
                     <Stat header={"12M+"} desc={"QUERIES"}/>
                 </div>
             </div>
+            {/*<div className="image-container">*/}
+            {/*    <img src={imageHeaderDesktop} alt="imageHeader"/>*/}
+            {/*</div>*/}
         </div>
     );
 };
