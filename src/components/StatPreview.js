@@ -20,9 +20,9 @@ const StatPreview = () => {
                     <Stat header={"12M+"} desc={"QUERIES"}/>
                 </div>
             </div>
-            {/*<div className="image-container">*/}
-            {/*    <img src={imageHeaderDesktop} alt="imageHeader"/>*/}
-            {/*</div>*/}
+            <div className="img-card">
+                <img className="img" src={imageHeaderDesktop}/>
+            </div>
         </div>
     );
 };
