@@ -1,7 +1,9 @@
 body {
   background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
 }
 
+//StatPreview component
 .card-container {
   background-color: hsl(244, 38%, 16%);
   margin: 0;
@@ -12,5 +14,53 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  border-radius: 8px;
+
+  .card-desc-container {
+    margin: 40px;
+
+    .main-heading { //todo: mobile text align center
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      color: hsl(0, 0%, 100%);
+
+      .text-accent {
+        color: hsl(277, 64%, 61%);
+      }
+    }
+
+    .card-desc { //todo: mobile text align center
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      margin: 10px 0px;
+      color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    .stat{
+      text-align: center;
+    }
+  }
 }
 
+
+//Stat component
+.stat-container {
+  display: inline-grid;
+  margin: 10% 30px;
+
+  .stat-header {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .stat-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+}
+
+
+//todo: 645 X 889px mobile
