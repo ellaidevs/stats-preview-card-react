@@ -1,5 +1,8 @@
-body {
+html, body {
   margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
   background-color: hsl(233, 47%, 7%);
   font-size: 15px;
 }
@@ -21,8 +24,9 @@ body {
 
   //left container
   .card-desc-container {
+
     width: 500px;
-    //margin: 40p x;
+    margin: 40px;
 
     .main-heading { //todo: mobile text align center
       font-family: 'Inter', sans-serif;
@@ -35,15 +39,16 @@ body {
     }
 
     .card-desc { //todo: mobile text align center
+      display: inline-flex;
       font-family: 'Inter', sans-serif;
       font-weight: 400;
-      //margin: 10px 0px;
+      line-height: 25px;
       color: hsla(0, 0%, 100%, 0.75);
     }
 
     .stat {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
     }
   }
 
@@ -63,8 +68,6 @@ body {
 
 //Stat component
 .stat-container {
-  display: inline-grid;
-
   .stat-header {
     margin-bottom: 5px;
     font-family: 'Lexend Deca', sans-serif;
